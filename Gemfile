@@ -5,6 +5,7 @@ gem 'rails', '4.0.0'
 gem 'pg'
 
 gem 'jquery-rails'
+gem 'backbone-on-rails'
 gem 'haml'
 
 gem 'sass-rails', '~> 4.0.0'
