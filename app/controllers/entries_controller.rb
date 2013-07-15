@@ -1,5 +1,4 @@
 class EntriesController < ApplicationController
-
   respond_to :json
 
   def index
@@ -21,5 +20,4 @@ class EntriesController < ApplicationController
   def destroy
     respond_with Entry.destroy(params[:id])
   end
-
 end
